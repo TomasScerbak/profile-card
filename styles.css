@@ -1,0 +1,32 @@
+/* Typohraphy */
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  line-height: 1.5;
+  height: 100vh;
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+:root {
+  --color-dark-cyan: hsl(185, 75%, 39%);
+  --color-very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --color-dark-blue: hsl(227, 10%, 46%);
+  --color-dark-grey: hsl(0, 0%, 59%);
+}
+h1,
+h2,
+h3 {
+  margin-top: 0;
+}
+p {
+  font-size: 1.8rem;
+}
