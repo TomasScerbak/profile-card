@@ -64,6 +64,7 @@ p {
   border-top: 1px solid var(--color-dark-grey);
   display: flex;
   justify-content: space-around;
+  text-align: center;
 }
 .card__name {
   font-weight: bold;
